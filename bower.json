@@ -1,0 +1,22 @@
+{
+  "name": "gulet",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Serdar tekin"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "slick-carousel": "^1.8.1",
+    "wow": "wowjs#^1.1.2"
+  }
+}

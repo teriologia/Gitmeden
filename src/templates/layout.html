@@ -1,0 +1,8 @@
+{# layout.html #}
+{% include "partials/head.html" %}
+<body class="{{bodyClass}}" onscroll="sticktop();">
+{% include "partials/header.html" %}
+{% block content %}{% endblock %}
+{% include "partials/footer.html" %}
+</body>
+</html>

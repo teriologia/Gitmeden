@@ -1,0 +1,149 @@
+.licenseDiv {
+  background-color: #F7F8FB;
+  padding: 20px;
+  color: #C2C2C3;
+  text-align: center;
+}
+
+.socialDiv {
+  width: 380px;
+  height: 40px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 35px;
+
+  li {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: #FC7D3D;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 30px;
+    float: left;
+  }
+}
+
+#contactDetails {
+  margin-bottom: 20px;
+  margin-top: 80px;
+
+  h2 {
+    font-family: $PoppinsSemiBold;
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+
+  p {
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #AFAFAF;
+  }
+
+  .icon {
+    margin-top: 40px;
+    color: #BFC4CE;
+    font-size: 24px;
+  }
+
+  .infos {
+    color: black;
+    font-family: $PoppinsSemiBold;
+    font-size: 14px;
+  }
+
+}
+
+#icons {
+  text-align: center;
+
+  i {
+    margin-bottom: 20px;
+  }
+}
+
+#adress {
+  padding: 0px;
+}
+
+.formfooter {
+  background: #F7F8FB url("../images/Group-127.png") no-repeat center center;
+}
+
+.contactUs {
+  background-color: rgba(255,255,255,0.7);
+  height: 512px;
+
+  h1 {
+    font-family: $PoppinsSemiBold;
+  }
+
+}
+
+#FormHeader {
+  margin: 0 auto;
+  width: 200px;
+  padding-top: 80px;
+  margin-bottom: 30px;
+}
+
+#Forminput {
+  margin: 0px 35px;
+
+  .inputText {
+    width: 340px;
+    height: 60px;
+    border: 2px solid #BFC4CE;
+    background-color: transparent;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding-left: 30px;
+    outline: none;
+    &:focus {
+      background-color: white;
+      border: none;
+      -webkit-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.1);
+      -moz-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.1);
+      box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.1);
+    }
+  }
+
+  input::placeholder{
+    color: #BFC4CE;
+  }
+
+  #konu {
+    margin: 0px;
+
+  }
+#send{
+  &:active{
+    border: 1px solid black;
+  }
+}
+  #contentInput {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+  }
+}
+.mailcontent{
+  padding-right: 10px !important;
+}
+#sendbutton
+{
+  input {
+    width: 100%;
+    border: none;
+    background-color: #FD8041;
+    color: white;
+    padding: 16px 0px;
+    border-radius: 6px;
+    font-family: $PoppinsSemiBold;
+    font-size: 20px;
+    outline: none
+  }
+}

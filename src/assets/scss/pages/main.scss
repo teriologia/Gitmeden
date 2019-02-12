@@ -1,0 +1,140 @@
+.whatIs{
+    animation-duration: 2s;
+    float: left;
+}
+.whatIsContent{
+    display: inline-block;
+    margin-bottom: 150px;
+    margin-top: 100px;
+    margin-left: 203PX;
+    #WhatIsHead
+    {
+        font-family: Avenir;
+        font-weight: 900;
+        font-size: 67px;
+        color: #494949;
+        img{
+           margin-bottom: 30px;
+           margin-right: 20px;
+        }
+
+    }
+    
+
+    }
+    
+
+.try2{
+    position: relative;
+    bottom: 450px;
+    left: 50%;
+    
+    p{
+        font-family: Avenir;
+        font-weight: 900;
+        margin-left: 17px;
+        font-size: 67px;
+        text-align: left;
+        color: #494949;
+        display: inline-block;
+
+    }
+    img{
+        display: inline-block !important;
+        position: relative;
+        bottom: 25px;
+    }
+    .secondHead{
+        font-family: Poppins;
+        font-weight: 300;
+        font-size: 36px;
+        letter-spacing: -0.03em;
+        line-height: 44px;
+        text-align: left;
+        color: #494949;
+        margin-top: 57px;
+    }
+    #description{
+        margin-top: 24px;
+        width: 759px;
+        height: 84px;
+        font-family: Poppins;
+        font-weight: normal;
+        font-size: 20px;
+        letter-spacing: -0.02em;
+        line-height: 28px;
+        text-align: left;
+        color: #595f6f;
+
+    }
+    
+
+}
+#phoneslide{
+        width: 450px;
+    }
+
+.contentmain{
+    background-color: #F3F4F7;
+    outline: none;
+    height: 605px;
+}
+.slick-slide {
+    &:focus, a {
+      outline: none;
+    }
+    img{
+        display: none;
+        opacity: 0;
+    }
+    &.slick-active{
+        img{
+            display: block;
+            animation: 1s fadeInLeft  forwards .5s; 
+        }
+        
+    }
+  }
+  .test11{
+    background: url("../images/bg color.png") no-repeat center center;
+    height: 1080px;
+  }
+
+ .content{
+     height: 620px;
+ }
+.UseContent{
+    margin-top: 203px;
+    margin-left: 131px;
+    .howToUseHeader{
+    font-weight: 400;
+    font-size: 67px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #fff;
+    }
+    .howToUseContent{
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    line-height: 28px;
+    text-align: left;
+    color: #fff;
+
+    }
+}
+.secondsliderimgdiv{
+    position: relative;
+    left: 700px;
+    bottom: 300px;
+    .firstphoneimage{
+        left: 200px;
+        bottom: 200px;
+        position: absolute;
+        z-index: 10;
+    }
+    .secondphoneimage{
+        position: relative;
+    }
+}
